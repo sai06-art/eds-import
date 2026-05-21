@@ -2,7 +2,10 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "tabs-section",
+      "content-section-container",
+      "column-container"
     ]
   },
   {
@@ -12,31 +15,210 @@
       "image",
       "button",
       "title",
-      "hero",
       "cards",
-      "columns",
-      "fragment"
+      "fragment",
+      "icon-card",
+      "promo-banner",
+      "anchor-links",
+      "two-column-with-image",
+      "primary-hero",
+      "table-version-two",
+      "table-version-two-2-columns",
+      "table-version-two-3-columns",
+      "table-version-two-4-columns",
+      "table-version-two-5-columns",
+      "table-version-two-6-columns",
+      "overlapping-block",
+      "brand-card",
+      "image-block",
+      "small-media-carousel",
+      "bulleted-icon-list",
+      "icon-tile",
+      "accordion",
+      "spacer-and-divider",
+      "horizontal-numeric-tile",
+      "additional-resource-card",
+      "price-card",
+      "quiz-block",
+      "promo-banner",
+      "crm-weight",
+      "hcp-coverage",
+      "doctor-discussion-guide",
+      "hcp-request-resources",
+      "text-component",
+      "video",
+      "external-video-player-link",
+      "small-width-media",
+      "npi-access-resources",
+      "ebv-block",
+      "css-block",
+      "guided-experience-quiz"
     ]
+  },
+  {
+    "id": "content-section-container",
+    "components": [
+      "anchor-links",
+      "cards",
+      "fragment",
+      "two-column-with-image",
+      "table-version-two",
+      "table-version-two-2-columns",
+      "table-version-two-3-columns",
+      "table-version-two-4-columns",
+      "table-version-two-5-columns",
+      "table-version-two-6-columns",
+      "overlapping-block",
+      "brand-card",
+      "image-block",
+      "doctor-discussion-guide",
+      "small-media-carousel",
+      "bulleted-icon-list",
+      "primary-hero",
+      "icon-card",
+      "icon-tile",
+      "accordion",
+      "spacer-and-divider",
+      "horizontal-numeric-tile",
+      "additional-resource-card",
+      "price-card",
+      "quiz-block",
+      "promo-banner",
+      "video",
+      "crm-weight",
+      "hcp-coverage",
+      "hcp-request-resources",
+      "text-component",
+      "search",
+      "npi-access-resources",
+      "ebv-block",
+      "css-block",
+      "guided-experience-quiz"
+    ]
+  },
+  {
+    "id": "column-container",
+    "components": [
+      "cards",
+      "fragment",
+      "two-column-with-image",
+      "transparent-block",
+      "table-version-two",
+      "table-version-two-2-columns",
+      "table-version-two-3-columns",
+      "table-version-two-4-columns",
+      "table-version-two-5-columns",
+      "table-version-two-6-columns",
+      "overlapping-block",
+      "brand-card",
+      "image-block",
+      "small-media-carousel",
+      "bulleted-icon-list",
+      "icon-tile",
+      "row-break",
+      "icon-card",
+      "primary-hero",
+      "accordion",
+      "spacer-and-divider",
+      "horizontal-numeric-tile",
+      "additional-resource-card",
+      "promo-banner",
+      "column-break",
+      "text-component",
+      "video",
+      "external-video-player-link",
+      "small-width-media",
+      "search",
+      "css-block",
+      "guided-experience-quiz"
+    ]
+  },
+  {
+    "id": "tabs-section",
+    "components": ["tabs"]
+  },
+  {
+    "id": "accordion",
+    "components": ["accordion-item"]
+  },
+  {
+    "id": "additional-resource-card",
+    "components": ["resource-card"]
+  },
+  {
+    "id": "anchor-links",
+    "components": ["anchor-links-item"]
+  },
+  {
+    "id": "brand-card",
+    "components": ["jump-link-item"]
+  },
+  {
+    "id": "bulleted-icon-list",
+    "components": ["bulleted-icon-list-item"]
   },
   {
     "id": "cards",
-    "components": [
-      "card"
-    ]
+    "components": ["card"]
   },
   {
-    "id": "columns",
-    "components": [
-      "column"
-    ]
+    "id": "external-video-player-link",
+    "components": ["external-video-player-link-item"]
   },
   {
-    "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
+    "id": "horizontal-numeric-tile",
+    "components": ["numeric-tile"]
+  },
+  {
+    "id": "icon-card",
+    "components": ["icon-card-item"]
+  },
+  {
+    "id": "icon-tile-grid",
+    "components": ["tile"]
+  },
+  {
+    "id": "price-card",
+    "components": ["green-card"]
+  },
+  {
+    "id": "small-media-carousel",
+    "components": ["small-media-carousel-item"]
+  },
+  {
+    "id": "small-width-media",
+    "components": ["small-width-media"]
+  },
+  {
+    "id": "table-version-two-2-columns",
+    "components": ["table-version-two-col-2"]
+  },
+  {
+    "id": "table-version-two-3-columns",
+    "components": ["table-version-two-col-3"]
+  },
+  {
+    "id": "table-version-two-4-columns",
+    "components": ["table-version-two-col-4"]
+  },
+  {
+    "id": "table-version-two-5-columns",
+    "components": ["table-version-two-col-5"]
+  },
+  {
+    "id": "table-version-two-6-columns",
+    "components": ["table-version-two-col-6"]
+  },
+  {
+    "id": "table-version-two",
+    "components": ["table-version-two-row"]
+  },
+  {
+    "id": "tabs",
+    "components": ["tab"]
+  },
+  {
+    "id": "video",
+    "components": ["video-item"]
   }
 ]
